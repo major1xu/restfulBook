@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33DCFCCE19B0D61100134DAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33DCFCCD19B0D61100134DAA /* Foundation.framework */; };
+		33DCFCD019B0D61100134DAA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33DCFCCF19B0D61100134DAA /* CoreGraphics.framework */; };
+		33DCFCD219B0D61100134DAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33DCFCD119B0D61100134DAA /* UIKit.framework */; };
+		33DCFCD819B0D61100134DAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33DCFCD619B0D61100134DAA /* InfoPlist.strings */; };
+		33DCFCDA19B0D61100134DAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DCFCD919B0D61100134DAA /* main.m */; };
+		33DCFCDE19B0D61100134DAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DCFCDD19B0D61100134DAA /* AppDelegate.m */; };
+		33DCFCE119B0D61100134DAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33DCFCDF19B0D61100134DAA /* Main.storyboard */; };
+		33DCFCE419B0D61100134DAA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DCFCE319B0D61100134DAA /* FirstViewController.m */; };
+		33DCFCE719B0D61100134DAA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DCFCE619B0D61100134DAA /* SecondViewController.m */; };
+		33DCFCE919B0D61100134DAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33DCFCE819B0D61100134DAA /* Images.xcassets */; };
+		33DCFCF019B0D61100134DAA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33DCFCEF19B0D61100134DAA /* XCTest.framework */; };
+		33DCFCF119B0D61100134DAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33DCFCCD19B0D61100134DAA /* Foundation.framework */; };
+		33DCFCF219B0D61100134DAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33DCFCD119B0D61100134DAA /* UIKit.framework */; };
+		33DCFCFA19B0D61100134DAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33DCFCF819B0D61100134DAA /* InfoPlist.strings */; };
+		33DCFCFC19B0D61100134DAA /* restfulBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DCFCFB19B0D61100134DAA /* restfulBookTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33DCFCF319B0D61100134DAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33DCFCC219B0D61100134DAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33DCFCC919B0D61100134DAA;
+			remoteInfo = restfulBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33DCFCCA19B0D61100134DAA /* restfulBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = restfulBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33DCFCCD19B0D61100134DAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		33DCFCCF19B0D61100134DAA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		33DCFCD119B0D61100134DAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		33DCFCD519B0D61100134DAA /* restfulBook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "restfulBook-Info.plist"; sourceTree = "<group>"; };
+		33DCFCD719B0D61100134DAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		33DCFCD919B0D61100134DAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33DCFCDB19B0D61100134DAA /* restfulBook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "restfulBook-Prefix.pch"; sourceTree = "<group>"; };
+		33DCFCDC19B0D61100134DAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33DCFCDD19B0D61100134DAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33DCFCE019B0D61100134DAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33DCFCE219B0D61100134DAA /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		33DCFCE319B0D61100134DAA /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		33DCFCE519B0D61100134DAA /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		33DCFCE619B0D61100134DAA /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		33DCFCE819B0D61100134DAA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		33DCFCEE19B0D61100134DAA /* restfulBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = restfulBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33DCFCEF19B0D61100134DAA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		33DCFCF719B0D61100134DAA /* restfulBookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "restfulBookTests-Info.plist"; sourceTree = "<group>"; };
+		33DCFCF919B0D61100134DAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		33DCFCFB19B0D61100134DAA /* restfulBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = restfulBookTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33DCFCC719B0D61100134DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33DCFCD019B0D61100134DAA /* CoreGraphics.framework in Frameworks */,
+				33DCFCD219B0D61100134DAA /* UIKit.framework in Frameworks */,
+				33DCFCCE19B0D61100134DAA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33DCFCEB19B0D61100134DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33DCFCF019B0D61100134DAA /* XCTest.framework in Frameworks */,
+				33DCFCF219B0D61100134DAA /* UIKit.framework in Frameworks */,
+				33DCFCF119B0D61100134DAA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33DCFCC119B0D61100134DAA = {
+			isa = PBXGroup;
+			children = (
+				33DCFCD319B0D61100134DAA /* restfulBook */,
+				33DCFCF519B0D61100134DAA /* restfulBookTests */,
+				33DCFCCC19B0D61100134DAA /* Frameworks */,
+				33DCFCCB19B0D61100134DAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33DCFCCB19B0D61100134DAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33DCFCCA19B0D61100134DAA /* restfulBook.app */,
+				33DCFCEE19B0D61100134DAA /* restfulBookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33DCFCCC19B0D61100134DAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33DCFCCD19B0D61100134DAA /* Foundation.framework */,
+				33DCFCCF19B0D61100134DAA /* CoreGraphics.framework */,
+				33DCFCD119B0D61100134DAA /* UIKit.framework */,
+				33DCFCEF19B0D61100134DAA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33DCFCD319B0D61100134DAA /* restfulBook */ = {
+			isa = PBXGroup;
+			children = (
+				33DCFCDC19B0D61100134DAA /* AppDelegate.h */,
+				33DCFCDD19B0D61100134DAA /* AppDelegate.m */,
+				33DCFCDF19B0D61100134DAA /* Main.storyboard */,
+				33DCFCE219B0D61100134DAA /* FirstViewController.h */,
+				33DCFCE319B0D61100134DAA /* FirstViewController.m */,
+				33DCFCE519B0D61100134DAA /* SecondViewController.h */,
+				33DCFCE619B0D61100134DAA /* SecondViewController.m */,
+				33DCFCE819B0D61100134DAA /* Images.xcassets */,
+				33DCFCD419B0D61100134DAA /* Supporting Files */,
+			);
+			path = restfulBook;
+			sourceTree = "<group>";
+		};
+		33DCFCD419B0D61100134DAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33DCFCD519B0D61100134DAA /* restfulBook-Info.plist */,
+				33DCFCD619B0D61100134DAA /* InfoPlist.strings */,
+				33DCFCD919B0D61100134DAA /* main.m */,
+				33DCFCDB19B0D61100134DAA /* restfulBook-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33DCFCF519B0D61100134DAA /* restfulBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				33DCFCFB19B0D61100134DAA /* restfulBookTests.m */,
+				33DCFCF619B0D61100134DAA /* Supporting Files */,
+			);
+			path = restfulBookTests;
+			sourceTree = "<group>";
+		};
+		33DCFCF619B0D61100134DAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33DCFCF719B0D61100134DAA /* restfulBookTests-Info.plist */,
+				33DCFCF819B0D61100134DAA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33DCFCC919B0D61100134DAA /* restfulBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33DCFCFF19B0D61100134DAA /* Build configuration list for PBXNativeTarget "restfulBook" */;
+			buildPhases = (
+				33DCFCC619B0D61100134DAA /* Sources */,
+				33DCFCC719B0D61100134DAA /* Frameworks */,
+				33DCFCC819B0D61100134DAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = restfulBook;
+			productName = restfulBook;
+			productReference = 33DCFCCA19B0D61100134DAA /* restfulBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33DCFCED19B0D61100134DAA /* restfulBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33DCFD0219B0D61100134DAA /* Build configuration list for PBXNativeTarget "restfulBookTests" */;
+			buildPhases = (
+				33DCFCEA19B0D61100134DAA /* Sources */,
+				33DCFCEB19B0D61100134DAA /* Frameworks */,
+				33DCFCEC19B0D61100134DAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33DCFCF419B0D61100134DAA /* PBXTargetDependency */,
+			);
+			name = restfulBookTests;
+			productName = restfulBookTests;
+			productReference = 33DCFCEE19B0D61100134DAA /* restfulBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33DCFCC219B0D61100134DAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = uudaddy;
+				TargetAttributes = {
+					33DCFCED19B0D61100134DAA = {
+						TestTargetID = 33DCFCC919B0D61100134DAA;
+					};
+				};
+			};
+			buildConfigurationList = 33DCFCC519B0D61100134DAA /* Build configuration list for PBXProject "restfulBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33DCFCC119B0D61100134DAA;
+			productRefGroup = 33DCFCCB19B0D61100134DAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33DCFCC919B0D61100134DAA /* restfulBook */,
+				33DCFCED19B0D61100134DAA /* restfulBookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33DCFCC819B0D61100134DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33DCFCE919B0D61100134DAA /* Images.xcassets in Resources */,
+				33DCFCD819B0D61100134DAA /* InfoPlist.strings in Resources */,
+				33DCFCE119B0D61100134DAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33DCFCEC19B0D61100134DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33DCFCFA19B0D61100134DAA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33DCFCC619B0D61100134DAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33DCFCE719B0D61100134DAA /* SecondViewController.m in Sources */,
+				33DCFCDE19B0D61100134DAA /* AppDelegate.m in Sources */,
+				33DCFCE419B0D61100134DAA /* FirstViewController.m in Sources */,
+				33DCFCDA19B0D61100134DAA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33DCFCEA19B0D61100134DAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33DCFCFC19B0D61100134DAA /* restfulBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33DCFCF419B0D61100134DAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33DCFCC919B0D61100134DAA /* restfulBook */;
+			targetProxy = 33DCFCF319B0D61100134DAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33DCFCD619B0D61100134DAA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33DCFCD719B0D61100134DAA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		33DCFCDF19B0D61100134DAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33DCFCE019B0D61100134DAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33DCFCF819B0D61100134DAA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33DCFCF919B0D61100134DAA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33DCFCFD19B0D61100134DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		33DCFCFE19B0D61100134DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33DCFD0019B0D61100134DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "restfulBook/restfulBook-Prefix.pch";
+				INFOPLIST_FILE = "restfulBook/restfulBook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		33DCFD0119B0D61100134DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "restfulBook/restfulBook-Prefix.pch";
+				INFOPLIST_FILE = "restfulBook/restfulBook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		33DCFD0319B0D61100134DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/restfulBook.app/restfulBook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "restfulBook/restfulBook-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "restfulBookTests/restfulBookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		33DCFD0419B0D61100134DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/restfulBook.app/restfulBook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "restfulBook/restfulBook-Prefix.pch";
+				INFOPLIST_FILE = "restfulBookTests/restfulBookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33DCFCC519B0D61100134DAA /* Build configuration list for PBXProject "restfulBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DCFCFD19B0D61100134DAA /* Debug */,
+				33DCFCFE19B0D61100134DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33DCFCFF19B0D61100134DAA /* Build configuration list for PBXNativeTarget "restfulBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DCFD0019B0D61100134DAA /* Debug */,
+				33DCFD0119B0D61100134DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33DCFD0219B0D61100134DAA /* Build configuration list for PBXNativeTarget "restfulBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DCFD0319B0D61100134DAA /* Debug */,
+				33DCFD0419B0D61100134DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33DCFCC219B0D61100134DAA /* Project object */;
+}

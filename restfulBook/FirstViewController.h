@@ -8,6 +8,23 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface FirstViewController : UIViewController
+
+@property (nonatomic, strong) IBOutlet UITextField *textField;
+
+@property (nonatomic, strong) IBOutlet UITextView *textView;
+
+-(IBAction)getAllBooks:(id)sender;
+
+-(IBAction)getBookById:(id)sender;
+
+-(IBAction)addBook:(id)sender;
+
+-(IBAction)clear:(id)sender;
+
+-(IBAction)removeBook:(id)sender;
+
+-(IBAction)updateBook:(id)sender;
 
 @end
